@@ -1,5 +1,5 @@
 # Site settings
-#baseurl: "/"
+baseurl: "/software"
 img: "img"
 js: "js"
 css: "css"
