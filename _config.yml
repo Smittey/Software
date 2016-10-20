@@ -1,0 +1,8 @@
+# Site settings
+#baseurl: "/"
+img: "img"
+js: "js"
+css: "css"
+#url: "#"
+permalink: "/:title/"
+parse_block_html: true
