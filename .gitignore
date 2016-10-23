@@ -2,16 +2,6 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
-# Packages #
-############
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
 
 # Logs and databases #
 ######################

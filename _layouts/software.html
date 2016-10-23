@@ -12,7 +12,7 @@ layout: default
                     <p id="category" class="text-muted">Plugins</p>
                     <h1>View on White Pages</h1>
                     <p id="description" class="text-muted">A Microsoft Outlook plugin to allow you to right-click on a contact to take you straight to their Intranet page</p>
-                    <a href="#" class="download-btn btn btn-custom">Download latest version</a>
+                    <a onclick="ga('send', 'event', 'View on White Pages', 'Click', 'v1.0.0', 0);" href="{{ site.baseurl }}/{{ site.releases }}/{{ page.url | remove:'/'}}/{{ page.version }}/{{ page.url | remove:'/' }}-{{ page.version }}.zip" class="download-btn btn btn-custom">Download latest version</a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@ layout: default
                         </div>
 
                         <div class="col-xs-6">
-                            <h2>5</h2>  
+                            <h2>24</h2>  
                             <p class="text-muted">Downloads</p>
                         </div>
 
@@ -70,4 +70,11 @@ layout: default
 <script>
     $('div.tables-begin').nextUntil('div.tables-end', 'table').addClass('table table-hover table-striped');
     $('.table thead').addClass('thead-inverse');
+    
+   /* 
+    $.getJSON("https://ga-dev-tools.appspot.com/query-explorer/?start-date=30daysAgo&end-date=2016-10-23&metrics=ga%3AtotalEvents&filters=ga%3AeventCategory%3D%3DView%20on%20White%20Pages", function(json) {
+        console.log(json);
+    
+    });
+    */
 </script>

@@ -1,8 +1,9 @@
 # Site settings
 baseurl: "/software"
-img: "img"
-js: "js"
-css: "css"
+img: "assets/img"
+js: "assets/js"
+css: "assets/css"
+releases: "assets/releases"
 #url: "#"
 permalink: "/:title/"
 parse_block_html: true
