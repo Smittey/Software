@@ -14,7 +14,7 @@ software-img: indexbg.jpg
 
 | Version       | Date          | Download                                                                                                                                                                                                                                               | Checksum (MD5)                   | Contributors |
 | :------------ |:-------------:| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| :-------------------------------:| ------------:|
-| 1.0.0         | 13/10/2016    | <a onclick="ga('send', 'event', 'View on White Pages', 'Click', 'v1.0.0', 0);" href="{{ site.baseurl }}/{{ site.releases }}/{{ page.url | remove:'/'}}/{{ page.version }}/{{ page.url | remove:'/' }}-{{ page.version }}.zip">Download</a> | 5D1CE480055FF2E8A895DE2FDBBE5AE4 | Andy Smith   |
+| 1.0.0         | 13/10/2016    | <a onclick="ga('send', 'event', 'View on White Pages', 'Click', 'v1.0.0', 0);" href="{{ site.baseurl }}/{{ site.releases }}/{{ page.url | remove:'/'}}/{{ page.version }}/{{ page.url | remove:'/' }}-{{ page.version }}.zip">{{ page.url | remove:'/' }}-{{ page.version }}.zip</a> | 5D1CE480055FF2E8A895DE2FDBBE5AE4 | Andy Smith   |
 
 <div class="tables-end"></div>
 
